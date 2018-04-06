@@ -5,7 +5,7 @@ PullToRefresh + NVActivityIndicatorView
 
 
 [![Language: Swift 4](https://img.shields.io/badge/language-swift4-f48041.svg?style=flat-square)](https://developer.apple.com/swift)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/SwiftyContacts.svg?style=flat-square)](https://cocoapods.org/pods/SwiftyContacts)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/NVPullToRefresh.svg?style=flat-square)](https://cocoapods.org/pods/SwiftyContacts)
 
 ## Example
 
