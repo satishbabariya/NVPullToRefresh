@@ -3,10 +3,9 @@
 PullToRefresh + NVActivityIndicatorView
 =======================================
 
-[![CI Status](http://img.shields.io/travis/satish.babariya@gmail.com/NVPullToRefresh.svg?style=flat)](https://travis-ci.org/satish.babariya@gmail.com/NVPullToRefresh)
-[![Version](https://img.shields.io/cocoapods/v/NVPullToRefresh.svg?style=flat)](http://cocoapods.org/pods/NVPullToRefresh)
-[![License](https://img.shields.io/cocoapods/l/NVPullToRefresh.svg?style=flat)](http://cocoapods.org/pods/NVPullToRefresh)
-[![Platform](https://img.shields.io/cocoapods/p/NVPullToRefresh.svg?style=flat)](http://cocoapods.org/pods/NVPullToRefresh)
+
+[![Language: Swift 4](https://img.shields.io/badge/language-swift4-f48041.svg?style=flat-square)](https://developer.apple.com/swift)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/SwiftyContacts.svg?style=flat-square)](https://cocoapods.org/pods/SwiftyContacts)
 
 ## Example
 
@@ -97,6 +96,7 @@ Unfortunaly, *UITableView* with sections currently not supported. But you can re
 
 
 For more Information on PullToRefresh Go to https://github.com/Yalantis/PullToRefresh
+
 For more Information on NVActivityIndicatorView Go to https://github.com/ninjaprox/NVActivityIndicatorView
 
 ## Author
