@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NVPullToRefresh_Example' do
+  pod 'NVPullToRefresh', :path => '../'
+
+  target 'NVPullToRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
