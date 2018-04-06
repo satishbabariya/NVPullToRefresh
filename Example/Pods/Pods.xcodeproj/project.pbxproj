@@ -34,7 +34,7 @@
 		6FF0AAFC0201C9E4D13AA3C80B107493 /* DefaultRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E1CA1C115F38B53487DE7E261EB59 /* DefaultRefreshView.swift */; };
 		71A9018DEF246AE2866FF6DC75717A0E /* RefreshViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D6BB483B6E2038F833A530AD4D98C /* RefreshViewAnimator.swift */; };
 		723DB28D62DE82F7048DED51AB1B00E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E1BF184B73707B87D0688E8C5FA897 /* Foundation.framework */; };
-		752A461A2077D7C300645660 /* NVPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A46182077D7A700645660 /* NVPullToRefresh.swift */; };
+		752A461D2077E74100645660 /* NVPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A461B2077E73300645660 /* NVPullToRefresh.swift */; };
 		768C8652FEF1CB4AA9CAEF22E77A09AC /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293A0CCF5EC5420EF0ADCE37A0528E6 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
 		7A04BD9028666AB823CB5047B9787109 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948DBD789ABBEE38A134BB300A75433F /* NVActivityIndicatorAnimationOrbit.swift */; };
 		8717D35760CCF360C98DD9BD0376AE63 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87817E2511F12851B671F2744B7EB7D2 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
@@ -165,7 +165,7 @@
 		7021ACFF5AA69C292C7F170D1FEF4339 /* Pods-NVPullToRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NVPullToRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
 		70E338DADD4AC6FAE091CF0ABCCCACBC /* Pods-NVPullToRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVPullToRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		742C3020E46239D901DFA7B05D6876F7 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
-		752A46182077D7A700645660 /* NVPullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPullToRefresh.swift; sourceTree = "<group>"; };
+		752A461B2077E73300645660 /* NVPullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVPullToRefresh.swift; path = NVPullToRefresh/Classes/NVPullToRefresh.swift; sourceTree = "<group>"; };
 		7530139A68A85B687DD7D5AA873BF601 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
 		7A3BF75C5AAD0E092361F4096648C93C /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
 		7A409F308FB49FAB395F567CE1BA1FE1 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
@@ -371,7 +371,7 @@
 		5052389676E9BB3F23D1B7A7EBB93298 /* NVPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				752A46182077D7A700645660 /* NVPullToRefresh.swift */,
+				752A461B2077E73300645660 /* NVPullToRefresh.swift */,
 				72A22604EF678B57B65D7774D0CCBF18 /* Pod */,
 				F25E5BD6E20909F03CB021A0AA2337CF /* Support Files */,
 			);
@@ -751,8 +751,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752A461A2077D7C300645660 /* NVPullToRefresh.swift in Sources */,
 				51A85CB1EA3BDDEF604A658021C3CD1A /* NVPullToRefresh-dummy.m in Sources */,
+				752A461D2077E74100645660 /* NVPullToRefresh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

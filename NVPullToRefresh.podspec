@@ -9,27 +9,22 @@
 Pod::Spec.new do |s|
   s.name             = 'NVPullToRefresh'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NVPullToRefresh.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'NVActivityIndicatorView + PullToRefresh'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  
+  This component implements pure pull-to-refresh logic with NVActivityIndicatorView animations.
+  
                        DESC
 
-  s.homepage         = 'https://github.com/satish.babariya@gmail.com/NVPullToRefresh'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/satishbabariya/NVPullToRefresh'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Satish Babariya' => 'satish.babariya@gmail.com' }
-  s.source           = { :git => 'https://github.com/satish.babariya@gmail.com/NVPullToRefresh.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/satishbabariya/NVPullToRefresh.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NVPullToRefresh/Classes/**/*'
+  s.source_files = 'NVPullToRefresh/Classes/**/*.swift'
   
   s.swift_version = '4.0'
 

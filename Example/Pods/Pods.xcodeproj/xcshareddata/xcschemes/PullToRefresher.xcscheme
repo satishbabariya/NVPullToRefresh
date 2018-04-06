@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "123F89F7E8DB3444EAD2F61E835952E2"
-               BuildableName = "NVActivityIndicatorView.framework"
-               BlueprintName = "NVActivityIndicatorView"
+               BlueprintIdentifier = "36DE1E0FD6CD4EF8E2A1E334F184564E"
+               BuildableName = "PullToRefresh.framework"
+               BlueprintName = "PullToRefresher"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "123F89F7E8DB3444EAD2F61E835952E2"
-            BuildableName = "NVActivityIndicatorView.framework"
-            BlueprintName = "NVActivityIndicatorView"
+            BlueprintIdentifier = "36DE1E0FD6CD4EF8E2A1E334F184564E"
+            BuildableName = "PullToRefresh.framework"
+            BlueprintName = "PullToRefresher"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
