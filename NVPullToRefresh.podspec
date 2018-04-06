@@ -24,19 +24,16 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/satish.babariya@gmail.com/NVPullToRefresh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'satish.babariya@gmail.com' => 'satish.babariya@gmail.com' }
+  s.author           = { 'Satish Babariya' => 'satish.babariya@gmail.com' }
   s.source           = { :git => 'https://github.com/satish.babariya@gmail.com/NVPullToRefresh.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NVPullToRefresh/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NVPullToRefresh' => ['NVPullToRefresh/Assets/*.png']
-  # }
+  s.swift_version = '4.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency "PullToRefresher", "~> 3.0.2"
+  s.dependency "NVActivityIndicatorView", "~> 4.1.1"
 end

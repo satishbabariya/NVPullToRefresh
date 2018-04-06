@@ -1,0 +1,6 @@
+framework module Pods_NVPullToRefresh_Example {
+  umbrella header "Pods-NVPullToRefresh_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

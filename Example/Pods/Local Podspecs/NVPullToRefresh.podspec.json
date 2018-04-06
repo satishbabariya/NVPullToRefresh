@@ -1,0 +1,31 @@
+{
+  "name": "NVPullToRefresh",
+  "version": "0.1.0",
+  "summary": "A short description of NVPullToRefresh.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/satish.babariya@gmail.com/NVPullToRefresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "satish.babariya@gmail.com": "satish.babariya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/satish.babariya@gmail.com/NVPullToRefresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NVPullToRefresh/Classes/**/*",
+  "swift_version": "4.0",
+  "dependencies": {
+    "PullToRefresher": [
+      "~> 3.0.2"
+    ],
+    "NVActivityIndicatorView": [
+      "~> 4.1.1"
+    ]
+  }
+}

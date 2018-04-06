@@ -1,0 +1,29 @@
+PODS:
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - NVPullToRefresh (0.1.0):
+    - NVActivityIndicatorView (~> 4.1.1)
+    - PullToRefresher (~> 3.0.2)
+  - PullToRefresher (3.0.2)
+
+DEPENDENCIES:
+  - NVPullToRefresh (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - NVActivityIndicatorView
+    - PullToRefresher
+
+EXTERNAL SOURCES:
+  NVPullToRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  NVPullToRefresh: 128d47ee3f6974698794cb8bc584d6c48db31588
+  PullToRefresher: 25a367871a70b1da0b28e8e7cecceb4ef04f5f56
+
+PODFILE CHECKSUM: 2622334c4ee16581bdb26d2585954cb8c88ce869
+
+COCOAPODS: 1.5.0
