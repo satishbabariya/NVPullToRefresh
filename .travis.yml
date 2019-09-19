@@ -1,0 +1,21 @@
+os: osx
+osx_image: xcode10.2
+language: swift
+
+branches:
+  only:
+    - /^\d+\.\d+\.\d+$/
+
+stages:
+  - name: deploy
+    if: branch =~ ^\d+\.\d+\.\d+$
+jobs:
+  include:
+
+    - name: '`pod trunk push`'
+      stage: deploy
+      install: gem install cocoapods
+      before_script: 
+        sed -i '' "s/s.version = '0.0.1'/s.version = '$TRAVIS_TAG'/g" NVPullToRefresh.podspec
+      script:
+        pod trunk push --allow-warnings
