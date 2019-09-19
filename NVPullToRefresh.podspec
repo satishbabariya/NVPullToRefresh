@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/satishbabariya/NVPullToRefresh'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Satish Babariya' => 'satish.babariya@gmail.com' }
-  s.source           = { :git => 'https://github.com/satishbabariya/NVPullToRefresh.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/satishbabariya/NVPullToRefresh.git', :tag => s.version }
   
   s.ios.deployment_target = '11.0'
 
