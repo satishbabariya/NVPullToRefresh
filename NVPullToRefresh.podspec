@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit'
   s.dependency "PullToRefresher", "~> 3.1"
-  s.dependency "NVActivityIndicatorView", "~> 4.7"
+  s.dependency "NVActivityIndicatorView", "~> 4.4"
 end
