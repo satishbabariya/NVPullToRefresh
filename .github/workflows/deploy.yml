@@ -1,9 +1,6 @@
 name: Pod Deploy
 
-on:
-  push:
-    branches:
-    - release/*
+on: release
     
 jobs:
   build:
