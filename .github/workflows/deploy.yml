@@ -7,13 +7,12 @@ on:
     
 jobs:
   build:
-  runs-on: macOS-latest
-    
-    steps:
-    - uses: actions/checkout@v1
-    - name: Publish to CocoaPods
-      env:
-        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
-      run: |
-        sed -i '' "s/s.version = '0.0.1'/s.version = '$TRAVIS_TAG'/g" NVPullToRefresh.podspec
-        pod trunk push NVPullToRefresh.podspec
+  runs-on: macOS-latest 
+  steps:
+  - uses: actions/checkout@master
+  - name: Publish to CocoaPods
+    env:
+      COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+    run: |
+      sed -i '' "s/s.version = '0.0.1'/s.version = '$TRAVIS_TAG'/g" NVPullToRefresh.podspec
+      pod trunk push NVPullToRefresh.podspec
